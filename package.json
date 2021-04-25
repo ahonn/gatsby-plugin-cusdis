@@ -1,0 +1,41 @@
+{
+  "name": "gatsby-plugin-cusdis",
+  "description": "A plugin for adding Cusdis comments to Gatsby",
+  "version": "0.0.2",
+  "repository": "https://github.com/ahonn/gatsby-plugin-cusdis",
+  "homepage": "https://cusdis.com/",
+  "bugs": {
+    "url": "https://github.com/ahonn/gatsby-plugin-cusdis/issues"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsbyjs",
+    "plugin",
+    "cusdis",
+    "comments"
+  ],
+  "main": "index.js",
+  "author": "ahonn <ahonn95@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "release": "standard-version",
+    "copy-files": "mkdir lib || true && cp .eslintrc.json README.md package.json lib",
+    "clean": "rm -r lib",
+    "build": "yarn clean && yarn copy-files && babel src --out-dir lib --copy-files --ignore **/__tests__",
+    "watch": "yarn copy-files && babel -w src --out-dir lib --copy-files --ignore **/__tests__"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.13.16",
+    "@babel/plugin-transform-spread": "^7.13.0",
+    "@babel/preset-env": "^7.13.15",
+    "babel-eslint": "^10.1.0",
+    "babel-preset-gatsby-package": "^1.3.0",
+    "eslint": "^7.25.0",
+    "eslint-plugin-react": "^7.23.2"
+  },
+  "dependencies": {
+    "react-cusdis": "^1.0.1"
+  }
+}

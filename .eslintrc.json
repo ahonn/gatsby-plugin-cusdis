@@ -1,0 +1,20 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true,
+    "jest": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "globals": {
+    "GATSBY_CUSDIS_APP_ID": true,
+    "GATSBY_CUSDIS_HOST": true
+  }
+}
