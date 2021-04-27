@@ -1422,11 +1422,6 @@ cross-spawn@^7.0.2:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-cusdis@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/cusdis/-/cusdis-1.0.0.tgz#b83e60d2f10ddaeb103d83842238ed7c649b8668"
-  integrity sha512-P8QmZ0T1YEIccbuBGjL9ttZWFfgNMf67uoSl+ZSrgYtLay7YkRVmzKw1YGJJbmHXdvSzSX5sRY5kPhk8xfW+Kg==
-
 debug@^2.2.0, debug@^2.3.3:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
@@ -2591,12 +2586,10 @@ punycode@^2.1.0:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-react-cusdis@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/react-cusdis/-/react-cusdis-1.0.1.tgz#12979ba8a2ab10aee42b68ae563f03fe2001a1c5"
-  integrity sha512-2BrqH2oKKnvyEse07lhcy/BKpXprvceOiWGuD7z/+ew/MOEAeXXayVAIuPqCS0vifZFrsQY5HuvdwoDgvhbHJQ==
-  dependencies:
-    cusdis "^1.0.0"
+react-cusdis@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/react-cusdis/-/react-cusdis-2.0.1.tgz#88d8a8e88be9c8a80b33974d151311c3378acc7a"
+  integrity sha512-8oWF5GdsKUx+l9A58GkYJc6yiYNiF7vw9cZHGLcX0z2MyznwLXizBgPfIFvVV7kdsapdjeium/Ox1J3rR+ZQnw==
 
 react-is@^16.8.1:
   version "16.13.1"

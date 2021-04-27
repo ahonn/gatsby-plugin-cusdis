@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-cusdis",
   "description": "A plugin for adding Cusdis comments to Gatsby",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "repository": "https://github.com/ahonn/gatsby-plugin-cusdis",
   "homepage": "https://cusdis.com/",
   "bugs": {
@@ -36,6 +36,6 @@
     "eslint-plugin-react": "^7.23.2"
   },
   "dependencies": {
-    "react-cusdis": "^1.0.1"
+    "react-cusdis": "^2.0.1"
   }
 }
