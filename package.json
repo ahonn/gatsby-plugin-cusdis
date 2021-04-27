@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-cusdis",
   "description": "A plugin for adding Cusdis comments to Gatsby",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "repository": "https://github.com/ahonn/gatsby-plugin-cusdis",
   "homepage": "https://cusdis.com/",
   "bugs": {
